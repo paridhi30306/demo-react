@@ -5,20 +5,23 @@ import './App.css'
 import Demo from './component/Demo'
 
 function App() {
- 
+  const name="Paridhi";
+  let x=10;
+  let y=20;
+  function NM() {
+    return "inside function";
+  } 
+  function sum(a,b){
+    return a+b;
+  }
 
   return (
     <div>
-     <h1>Hi i am Paridhi Singh</h1>
-     <h1>Inside the app component</h1>
-     <Employee></Employee>
-     <Demo></Demo>
+     <h1>User variable with jsx</h1>
+     <h2>Value of variable is {name}</h2>
+     <h3> {x+y} </h3>
+     <h3> {NM()} </h3>    
     </div>
-  )
-}
-function Employee(){
-  return(
-    <h1>The employee name is paridhi singh</h1>
   )
 }
 
