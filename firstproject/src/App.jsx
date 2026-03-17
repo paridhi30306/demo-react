@@ -20,7 +20,8 @@ function App() {
      <h1>User variable with jsx</h1>
      <h2>Value of variable is {name}</h2>
      <h3> {x+y} </h3>
-     <h3> {NM()} </h3>    
+     <h3> {NM()} </h3>
+     <h3> example if parameterized function {sum(87,64)}</h3>    
     </div>
   )
 }
